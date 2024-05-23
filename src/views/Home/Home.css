@@ -1,0 +1,54 @@
+/* Home.css */
+
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homeDiv {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    font-family: 'Arial', sans-serif;
+}
+
+.errorDiv {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.errorDiv:hover {
+    transform: translateY(-3px);
+}
+
+/* Bootstrap overrides */
+
+.filterContainer {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.filterContainer select {
+    width: 200px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    cursor: pointer;
+}
+
+.filterContainer select:focus {
+    outline: none;
+    background: #ffffff;
+}
+
+.filterContainer select:hover {
+    box-shadow: none;
+}
+
